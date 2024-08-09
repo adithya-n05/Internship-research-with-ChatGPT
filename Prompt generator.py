@@ -135,4 +135,4 @@ async def main(companylist):
             with open(f"{companylist[i]}.md", "w") as markdownfile:
                 markdownfile.write(response)
 
-asyncio.run(main(finance_related))
+asyncio.run(main(tech_related))
